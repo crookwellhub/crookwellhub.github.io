@@ -1,4 +1,4 @@
-* { /* Yoinked from https://www.simplilearn.com/tutorials/html-tutorial/html-navigation-bar */
+* { /* Yoinked from https://www.simplilearn.com/tutorials/html-tutorial/html-navigation-bar with modifications to suite my site */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -36,7 +36,7 @@
     list-style: none;
   }
   
-  .nav-links a {
+  .nav-links a[attribute=navbar] {
     color: white;
     text-decoration: none;
     letter-spacing: 3px;
@@ -46,10 +46,10 @@
   
   }
   
-  .nav-links a:hover:not(.active) {
+  .nav-links a:hover:not(.active)[attribute=navbar] {
     background-color: lightseagreen;
   }
   
-  .nav-links li a.active {
+  .nav-links li a.active[attribute=navbar] {
     background-color: #4caf50;
   }

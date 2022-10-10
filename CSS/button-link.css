@@ -1,4 +1,4 @@
-a{
+a[attribute=button]{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -13,7 +13,7 @@ a{
 
 
 }
-a:before{
+a:before[attribute=button]{
     content: '';
     position: absolute;
     top: 0;
@@ -28,7 +28,7 @@ transform: scale(0);
 
 
 }
-a:hover:before
+a:hover:before[attribute=button]
 {
     transition: transform 0.5s;
     transform-origin: top left;
@@ -36,7 +36,7 @@ transform: scale(1);
 
 
 }
-a:after{
+a:after[attribute=button]{
     content: '';
     position: absolute;
     top: 0;
@@ -55,7 +55,7 @@ transform: scale(1);
 
 
 }
-a:hover:after{
+a:hover:after[attribute=button]{
 transition: transform 0.5s;
 transform-origin: bottom right;
 transform: scale(0);
