@@ -18,6 +18,8 @@
 
 .button:focus {
     outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #5a01a7;
+    outline-style: solid;
+    box-shadow: 0 0 0 1px #0e4108;
 }
+
+.center { text-align: center; }
