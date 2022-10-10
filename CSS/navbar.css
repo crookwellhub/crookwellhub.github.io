@@ -36,7 +36,7 @@
     list-style: none;
   }
   
-  .nav-links a[attribute=navbar] {
+  .nav-links a {
     color: white;
     text-decoration: none;
     letter-spacing: 3px;
@@ -46,10 +46,10 @@
   
   }
   
-  .nav-links a:hover:not(.active)[attribute=navbar] {
+  .nav-links a:hover:not(.active) {
     background-color: lightseagreen;
   }
   
-  .nav-links li a.active[attribute=navbar] {
+  .nav-links li a.active {
     background-color: #4caf50;
   }
