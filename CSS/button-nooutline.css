@@ -4,7 +4,7 @@
     color: #fff;
     border: none; 
     border-radius:10px; 
-    padding:10px;
+    padding:9px;
     min-height:30px; 
     min-width: 120px;
     transition: 0.5s;
@@ -13,6 +13,7 @@
 .button:hover {
     background-color:#2275c4;
     transition: 0.5s;
+    padding:10px;
 }
 /*
 .center { text-align: center; } */
