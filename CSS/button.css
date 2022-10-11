@@ -1,9 +1,8 @@
 .button {
-    position: absolute;
     top:50%;
     background-color:#0c752f;
     color: #fff;
-    border:none; 
+    border: none; 
     border-radius:10px; 
     padding:15px;
     min-height:30px; 
@@ -15,11 +14,5 @@
     background-color:#03330f;
     transition: 0.5s;
 }
-
-.button:focus {
-    outline-color: transparent;
-    outline-style: solid;
-    box-shadow: 0 0 0 1px #0e4108;
-}
-
-.center { text-align: center; }
+/*
+.center { text-align: center; } */
