@@ -6,6 +6,17 @@
     <link rel="stylesheet" href="/CSS/navbar.css">
     <link rel="stylesheet" href="/CSS/button-nooutline.css">
     <title>Info | Crookwell Hub</title>
+    <!-- From https://blog.logrocket.com/optimizing-video-backgrounds-css-javascript/#how-create-video-backgrounds !-->
+    <style>
+      #main video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      }
+    </style>
 </head>
 
 <body style="background-color:rgb(0, 0, 0);">
@@ -21,25 +32,28 @@
         </ul>
     </nav>
     <br>
-    <div style="margin: auto; text-align: center; display: block; width: 60%; position: relative; transform: translate(0, 50%); line-height: 150%;">
-      <span style="background-color:white; display: block;">
-        <br>
-        <h1>Info</h1>
-        <br>
-        <p>Crookwell is a beautiful, rural area, where the residents have built a thriving community.</p>
-        <br>
-        <p>I could go on and on about how beautiful Crookwell is, but I think it speaks for itself on these cinematic shots.</p>
-        <br>
-        <p>
-          For more information, go to either of these sites: 
-          <a style="text-decoration:none" href="https://www.tripadvisor.com.au/Attraction_Review-g528944-d16675496-Reviews-Crookwell_Visitor_Information_Centre-Crookwell_New_South_Wales.html" id="button">TripAdvisor</a>             
-          <a style="text-decoration:none" href="https://www.visitnsw.com/destinations/country-nsw/goulburn-area/crookwell/" id="button">VisitNSW</a>            
-          <a style="text-decoration:none" href="https://en.wikipedia.org/wiki/Crookwell,_New_South_Wales" id="button">Wikipedia</a>
-        </p>
-        <br style="margin: 50px;"><br>
-        <p>There is also some information about upcoming events on our   <a style="text-decoration:none" href="/events.html" id="button">Events</a>   page, and sporting information on our   <a style="text-decoration:none" href="/sports.html" id="button">Sports</a>   page.</p>
-        <br>
-      </span>
+    <div id="main">
+      <video src="/Images/InfoBackround.mp4" muted autoplay loop></video>
+      <div style="margin: auto; text-align: center; display: block; width: 60%; position: relative; transform: translate(0, 50%); line-height: 150%;">
+        <span style="background-color:white; display: block;">
+          <br>
+          <h1>Info</h1>
+          <br>
+          <p>Crookwell is a beautiful, rural area, where the residents have built a thriving community.</p>
+          <br>
+          <p>I could go on and on about how beautiful Crookwell is, but I think it speaks for itself on these cinematic shots.</p>
+          <br>
+          <p>
+            For more information, go to either of these sites: 
+            <a style="text-decoration:none" href="https://www.tripadvisor.com.au/Attraction_Review-g528944-d16675496-Reviews-Crookwell_Visitor_Information_Centre-Crookwell_New_South_Wales.html" id="button">TripAdvisor</a>             
+            <a style="text-decoration:none" href="https://www.visitnsw.com/destinations/country-nsw/goulburn-area/crookwell/" id="button">VisitNSW</a>            
+            <a style="text-decoration:none" href="https://en.wikipedia.org/wiki/Crookwell,_New_South_Wales" id="button">Wikipedia</a>
+          </p>
+          <br style="margin: 50px;"><br>
+          <p>There is also some information about upcoming events on our   <a style="text-decoration:none" href="/events.html" id="button">Events</a>   page, and sporting information on our   <a style="text-decoration:none" href="/sports.html" id="button">Sports</a>   page.</p>
+          <br>
+        </span>
+      </div>
     </div>
     <!--<br>
     <a class="weatherwidget-io" href="https://forecast7.com/en/n34d46149d47/crookwell/" data-label_1="CROOKWELL" data-label_2="WEATHER" data-icons="Climacons" data-mode="Forecast" data-theme="weather_one" style="text-align: center; text-decoration: none;">Loading Crookwell Weather Widget, please wait...</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');</script>
