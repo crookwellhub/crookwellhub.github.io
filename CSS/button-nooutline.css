@@ -13,5 +13,5 @@
 .button:hover {
     background-color:#2275c4;
     transition: 0.5s;
-    padding:12px;
+    padding:10px;
 }
