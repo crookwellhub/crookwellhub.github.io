@@ -1,4 +1,4 @@
-.button {
+#button {
     top:50%;
     background-color:#0c752f;
     color: #fff;
@@ -10,7 +10,7 @@
     transition: 0.5s;
   }
 
-.button:hover {
+#button:hover {
     background-color:#03330f;
     transition: 0.5s;
 }
