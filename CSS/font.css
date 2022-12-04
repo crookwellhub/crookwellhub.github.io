@@ -1,3 +1,42 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(36, 36, 36);
+}
+
+h1 {
+    color: rgb(17, 17, 17);
+}
+
+h2 {
+    color: rgb(17, 17, 17);
+}
+
+h3 {
+    color: rgb(17, 17, 17);
+}
+
+h4 {
+    color: rgb(17, 17, 17);
+}
+
+h5 {
+    color: rgb(17, 17, 17);
+}
+ 
+h6 {
+    color: rgb(17, 17, 17);
+}
+ 
+a:link {
+    color: rgb(53, 170, 79);
+    transition: 0.49s;
+  }
+  
+a:visited {
+    color: rgb(37, 119, 55);
+}
+
+a:hover {
+    color: rgb(37, 119, 55);
+    transition: 0.49s;
 }
