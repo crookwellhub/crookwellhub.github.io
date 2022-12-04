@@ -1,7 +1,7 @@
 .button {
     top:50%;
     background-color:#11a2ce;
-    color: #fff;
+    color: #ffffff;
     border: none; 
     border-radius:10px; 
     padding: 6px;
@@ -12,6 +12,7 @@
 
 .button:hover {
     background-color:#2275c4;
+    color: #ffffff;
     transition: 0.5s;
     padding:9.5px;
 }
